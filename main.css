@@ -1,0 +1,269 @@
+
+.home-body {
+    background-image: url("images/Copia\ de\ Sin\ título.png");
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.almendras-body{
+    background-image: url("images/Almendra-Non-Poreil-02\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+.nueces-body{
+    background-image: url("images/0001\ -\ El\ Sembrador\ -\ Nuez\ mariposa\ 004.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+.pistachos-body{
+    background-image: url("images/Pistacho-con-cascara-01.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+.caju-body{
+    background-image: url("images/castaña-de-caju.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+.mani-body{
+    background-image: url("images/mani-pelado-tostado.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.home-header-menu{
+    display: flex;
+    justify-content: right;
+}
+.home-header-menu li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 5px 20px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+}
+.logo{
+    position: absolute;
+    top: 0rem;
+    padding: 25px;
+}
+
+.home-header{
+    background-color: #f0f8ffc0;
+    padding: 20px 20px;
+    margin: 0px 0px;
+}
+.links-primary {
+    color: #075007 ;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 1000;
+}
+.links-secondary{
+color: #125212 ;
+text-decoration: none;
+font-size: 32px;
+}
+.links-terciary {
+    color: #125212 ;
+    text-decoration: none;
+    font-size: 32px;
+    font-family:'Prompt', sans-serif;
+    text-align: center;
+    font-style: oblique;
+}
+.home-image{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+
+}
+.home-image img{
+    border-radius: 25px;
+}
+.home-nosotros{
+    background-color: #f0f8ffc0;
+    padding: 25px;
+    margin: 100px 0px;
+}
+.home-title h2{
+    color: #021d02;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+
+}
+.home-nosotros-content{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-style: italic;
+}
+.home-nosotros p{
+    display: block;
+}
+
+.home-h1{
+    color: #021d02;
+    font-style: italic;
+    font-size: 64px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.home-nuestros-productos {
+    background-color: #f0f8ffc0;
+    padding: 50px;
+    margin: 100px 0px;
+    text-align: center;
+    text-decoration: none;
+}
+.home-nuestros-productos h3{
+    color: #021d02;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+}
+.home-nuestros-productos ul li{
+    display: block;
+    padding: 0 5px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;    
+}
+.medios-de-pago {
+    background-color: #f0f8ffc0;
+    padding: 50px;
+    margin: 50px 5px;
+    text-align: center;
+}
+.medios-de-pago h3{
+    color: #021d02;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+}
+.medios-de-pago table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px 300px;
+    background-color: #021d02;
+    color: #10f010;
+    padding: 50px 50px;
+    border-radius: 25px;
+}
+.home-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f8ffc0;
+    padding: 50px 50px;
+    margin: 100px 0px;
+}
+
+.home-footer ul li{
+    display: flex;
+    padding: 0 5px;
+    font-weight: 100;
+    text-align: left;
+}
+.hoome-footer-contact{
+    display: flex;
+    justify-content: space-around;
+}
+.pages-info{
+    background-color: #f0f8ffc0;
+    padding: 25px;
+    margin: 50px 0px;
+}
+.pages-p{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-style: italic;
+}
+.pages-variety{
+    background-color: #f0f8ffc0;
+    padding: 25px;
+    margin: 50px 0px;
+
+}
+.pages-tipo{
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #021d02;
+}
+.pages-h2{
+    color: #021d02;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+.pages-precio{
+    background-color: #f0f8ffc0;
+    padding: 50px;
+    margin: 50px 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pages-precio table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px 300px;
+    background-color: #021d02;
+    color: #10f010;
+    padding: 50px 50px;
+    border-radius: 25px;
+}
+.pages-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f8ffc0;
+    padding: 50px 50px;
+    margin: 100px 0px;
+    text-decoration: none;
+}
+.pages-footer ul li{
+    display: flex;
+}
+
+.main-wrapper {
+    display: grid;
+    max-width: 1200px;
+
+   /*  grid-template-columns: 1fr 3fr;
+    grid-template-rows: 0.1fr;
+    grid-row-gap: 20px;
+}*/
+grid-template-areas: 
+"header header"
+"aside main"
+"footer footer";
+align-items: center;
+grid-row-gap: 20px;
+}
+
+
+header{
+    grid-area: header;
+    flex-direction: column;
+    justify-content: center;
+}
+nav {
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+header, nav, main, aside, footer {
+    border: solid 2px red;
+}
+
+
